@@ -12,7 +12,7 @@ type Rectangle struct {
 }
 
 type Shape interface {
-	Area()
+	Area() float64
 }
 
 func (c Circle) Area() float64 {
