@@ -22,3 +22,12 @@ func main() {
 	var buff io.Reader
 	fmt.Fscan(buff)
 }
+
+func calculateArea(s Shape) float64 {
+	return s.Area()
+}
+
+// func (r Rectangle) Area() float64 {
+// 	var area float64 = r.Width * r.Height
+// 	return area
+// }
